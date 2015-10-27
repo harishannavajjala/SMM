@@ -11,5 +11,5 @@ f1.write(old1)
 f2.seek(0) 
 f2.write(old2)
 
-#This belongs to HARISH annavajjala
+#This belongs to HARISH ANNAVAJJALA
 
