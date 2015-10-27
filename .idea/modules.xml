@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Khaana/.idea/Khaana.iml" filepath="$USER_HOME$/PycharmProjects/Khaana/.idea/Khaana.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SMM.iml" filepath="$PROJECT_DIR$/.idea/SMM.iml" />
     </modules>
   </component>
