@@ -1,20 +1,5 @@
-###################################
-# CS B551 Fall 2015, Assignment #5
-#
-# Your names and user ids:
-# Manikandan Murugesan and Debasis Dwivedy
-#
-# (Based on skeleton code by D. Crandall)
-#
-#
+
 ####
-# Put your report here!!
-# Our program performs all the functionalities of the assignment
-# The dictionaries that have been used for the problem has been explained at the places where they have been initialised
-# We have the learning function which reads the data from the training file and populates the learning library
-# We have a Probability learning function which calculates the probability similarly
-# Our best algorithm finds a better optimal solution
-# Though we double checked the implementation of Viterbi algorithm, we are getting low values for that
 # The output of the program is:
 # Naive : 88.27 %
 # MCMC : 7.14 %
@@ -27,10 +12,6 @@ import random
 import math
 from _collections import defaultdict
 
-# We've set up a suggested code structure, but feel free to change it. Just
-# make sure your code still works with the label.py and pos_scorer.py code
-# that we've supplied.
-#
 class Solver:
     
     def __init__(self):
@@ -44,8 +25,6 @@ class Solver:
         self.dict_word_probability={}#e.g.,(dict[cp_hari|noun]=0.05)
         self.dict_part_of_speech_probability={}#e.g.,(dict[cp_noun|verb]=0.05)
 
-    # Calculate the log of the posterior probability of a given sentence
-    #  with a given part-of-speech labeling
     def posterior(self, sentence, label):
         return self.posterior_calculation(sentence, label)
 
